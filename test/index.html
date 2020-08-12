@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row col-md-6 col-md-offset-3">
+			<div class="p panel-primary">
+				<div class="panel-heading">
+					<h1>Regestration form</h1>
+				</div>
+				<div class=" panel-body">
+					<form action="connect.php" method="post">
+						<div class="form of group">
+						<label for="firstName">First Name</label>
+						<input type="text" class="form-control" id="firstName" name="firstName">
+						</div>
+						<div class="form of group">
+						<label for="lastName">Last Name</label>
+						<input type="text" class="form-control" id="lastName" name="lastName">
+						</div>
+						<div class="form of group">
+						<label for="gender">Gender</label>
+						<div>
+						<label for="male"><input type="radio" class="radio-inline" id="male" name="gender" value="m">Male</label>
+						<label for="female"><input type="radio" class="radio-inline" id="female" name="gender" value="f">Female</label>
+						<label for="others"><input type="radio" class="radio-inline" id="others" name="gender" value="o">Others</label>
+						</div>
+						</div>
+						<div class="form of group">
+						<label for="email">Email</label>
+						<input type="text" class="form-control" id="email" name="email">
+						</div>
+						<div class="form of group">
+						<label for="password">Password</label>
+						<input type="text" class="form-control" id="password" name="password">
+						</div>
+						<div class="form of group">
+						<label for="number">Phonenumber</label>
+						<input type="text" class="form-control" id="number" name="number">
+						</div><br>
+						<input type="submit" class="btn btn-primary">
+
+						
+						
+					</form>
+				</div> 
+				
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
